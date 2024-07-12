@@ -1,0 +1,125 @@
+@charset "utf8";
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Ga+Maamli&family=Permanent+Marker&family=Playwrite+CL:wght@100..400&family=Playwrite+NL:wght@100..400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+:root{
+    --font-titulo: Permanent Marker;    
+}
+
+.titulo{
+    font-family: var(--font-titulo), Arial, Helvetica, sans-serif;
+    font-size: 2em;
+}
+
+body{
+    font-size: 100%;
+    background-image: url(imagens/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;   
+  
+}
+
+
+.band{
+    width: 7%;
+}
+
+.link{
+    text-decoration: none;
+    color: red;
+}
+
+a:hover{
+    background-color: rgba(0, 255, 98, 0.377);
+}
+a:visited{
+    color: red;
+}
+a:active{
+    color:white;
+}
+header{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:  center;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.menu{
+    display: flex;
+    gap: 50px;  
+
+}
+
+.link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.conteudo{
+    border-top: 0.4px solid rgb(238, 49, 49);
+    margin-bottom: 40px;
+    display: flex;   
+    
+}
+
+.secao1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.titulo{
+    display:flex;
+    flex-direction: column;
+    gap:100px;
+    color: rgb(88, 9, 9);
+    padding: 24px;
+    margin: 24px;
+}
+
+.botao{      
+   background-color: rgb(90, 211, 90);
+   width: 250px;
+   height: 37px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 20px;
+   font-weight: bold;
+   color: white;
+   position: absolute;
+   transform: translate(20%);
+   border-radius: 5px;
+   box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.589);
+
+}
+
+.chef{
+    height: 400px;;
+}
+.rodape{
+    display: block;
+    border-top: 0.4px solid rgb(238, 49, 49);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.conteudo-historia{
+    background-color: white;
+    width: 500px;
+    
+}
