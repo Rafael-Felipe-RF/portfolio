@@ -29,9 +29,13 @@ a{
 
 h1{
     font-variant: small-caps;
-    font-size: 3em;
-    color: white;
-    
+    font-size: 3vw;
+    color: white;    
+}
+
+h2{
+    color:white;
+    font-size: 2em;
 }
 
 .container{
