@@ -7,7 +7,6 @@
     --cor4:#304F61;
     --cor5:#243036;
     --cor6:#2B3033;
-
 }
 *{
     margin:0;
@@ -20,6 +19,10 @@ a{
     color:white;  
 }
 
+a.externo::after{
+    content: '\00a0\1f517';
+}
+
 .imagem{
     width: 50vh;
     margin: 30px;
@@ -27,15 +30,15 @@ a{
     border-radius: 4px;
 }
 
-h1{
+.titulo1{
     font-variant: small-caps;
-    font-size: 4vw;
+    font-size: 5vw;
     color: white;    
 }
 
-h2{
+.titulo2{
     color:white;
-    font-size: 2vw;
+    font-size: 3vw;
 }
 
 .container{
@@ -52,5 +55,50 @@ h2{
     flex-direction: column;
     align-items: center;
 }
+
+.landing{
+    background-color: var(--cor5);
+    height: 300px;
+    width: 100vw;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+
+ }
+
+ .botao{
+    height: 100px;
+    width: 300px;
+    font-size: 3em;
+    background-color: rgb(177, 209, 236);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.164);
+    border-radius: 5px;
+   
+
+
+ }
+
+ 
+ .landing-titulo{
+    font-size: 5vw;
+    color: black;
+    
+
+ }
+
+ .imagemland1{
+    width: 150px;
+    height: 150px;
+ }
+
+ .imagemland2{
+    width: 120px;
+    height: 150px;
+ }
 
 
