@@ -9,10 +9,11 @@
 }
 
 img{
-    height: 500px;
-    width: 700px;
+ 
+    width: 100vh;
     margin: 10px;
     box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.644);
+    min-width: 200px;
 }
 
 div{
@@ -24,4 +25,5 @@ div{
     align-items: center;
     color: white;
     font-size: 2em;
+    flex-wrap: wrap;
 }
