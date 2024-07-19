@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+:root{
+    --cor1: rgb(117, 167, 182);
+}
+
+img{
+    height: 500px;
+    width: 700px;
+    margin: 10px;
+    box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.644);
+}
+
+div{
+    height: 98vh;
+    background-color: var(--cor1);
+    height: 700px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 2em;
+}
