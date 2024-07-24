@@ -13,6 +13,7 @@
 
     h1{
         font-size: 2em;
+        font-variant: small-caps;
     }
 
     caption{
@@ -52,16 +53,31 @@
     .num{
         text-align: right;
     }
+
+    col.estado{
+        align-items: center;
+        display: flex;
+    }
 </style>
 
 <body>
+
+   
 
     <header>
         <h1>Lista de unidades federativas do Brasil por população </h1>
         
         <h3>Fonte: <a href="https://pt.wikipedia.org/wiki/Lista_de_unidades_federativas_do_Brasil_por_popula%C3%A7%C3%A3o" target="_blank">Wikipédia</a></h3>
         <table>
-    </header>
+            <colgroup>
+
+                <col class="numero">
+                <col class="estado">
+                <col class="cgrupo" span="5">        
+            </colgroup>    
+        
+        
+        </header>
 
         <caption>
             Esta é uma lista da população das unidades federativas brasileiras segundo dados divulgados pelo Instituto Brasileiro de Geografia e Estatística (IBGE) em 28 de junho de 2023, com base no Censo de 2022.
@@ -85,7 +101,7 @@
        <tbody>
                 <tr>
                 <td>1</td>	 
-                <td>São Paulo</td>	
+                <td> <img src="imagens/Bandeira_do_estado_de_São_Paulo.svg.webp" alt="">São Paulo </td>	
                 <td class="num">44 411 238</td>	
                 <td class="num">41 262 199</td>	
                 <td>+7.63%</td>	
@@ -95,7 +111,7 @@
             
             <tr>            
                 <td>2</td>
-                <td>Minas Gerais</td>
+                <td> <img src="imagens/Bandeira_de_Minas_Gerais.svg.webp" alt="">Minas Gerais</td>
                 <td class="num">20 538 718</td>
                 <td class="num">19 597 330</td>
                 <td>+4.81%</td>
@@ -105,7 +121,7 @@
 
             <tr>
                 <td>3</td>	 
-                <td>Rio de Janeiro	</td>
+                <td> <img src="imagens/Bandeira_do_estado_do_Rio_de_Janeiro.svg.webp" alt="">Rio de Janeiro	</td>
                 <td class="num">16 054 524</td>	
                 <td class="num">15 989 929</td>	
                 <td>+0.40%</td>	
@@ -115,7 +131,7 @@
 
             <tr>
                 <td>4	
-                <td>Bahia 
+                <td> <img src="imagens/Bandeira_da_Bahia.svg.webp" alt="">Bahia 
                 <td class="num">14 141 626	
                 <td class="num">14 016 906	
                 <td>+0.89%	
@@ -125,7 +141,7 @@
 
             <tr>
                 <td>5	 
-                <td>Paraná	
+                <td> <img src="imagens/Bandeira_do_Paraná.svg.webp" alt="">Paraná	
                 <td class="num">11 444 380	
                 <td class="num">10 444 526	
                 <td>+9.57%	
@@ -135,7 +151,7 @@
 
             <tr>
                 <td>6	 
-                <td>Rio Grande do Sul	
+                <td> <img src="imagens/Bandeira_do_Rio_Grande_do_Sul.svg.webp" alt="">Rio Grande do Sul	
                 <td class="num">10 882 965	
                 <td class="num">10 693 929	
                 <td>+1.76%	
@@ -145,7 +161,7 @@
 
             <tr>
                 <td>7	 
-                <td>Pernambuco	
+                <td> <img src="imagens/Bandeira_de_Pernambuco.svg.webp" alt="">Pernambuco	
                 <td class="num">9 058 931	
                 <td class="num">8 796 448	
                 <td>+2.98%	
@@ -155,7 +171,7 @@
 
             <tr>
                 <td>8	 
-                <td>Ceará	
+                <td> <img src="imagens/Bandeira_do_Ceará.svg.webp" alt="">Ceará	
                 <td class="num">8 794 957	
                 <td class="num">8 452 381	
                 <td>+4.05%	
@@ -165,7 +181,7 @@
 
             <tr>
                 <td>9	
-                <td>Pará 	
+                <td> <img src="imagens/Bandeira_do_Pará.svg.webp" alt="">Pará 	
                 <td class="num">8 121 025	
                 <td class="num">7 581 051	
                 <td>+7.12%	
@@ -175,7 +191,7 @@
 
             <tr>
                 <td>10	 
-                <td>Santa Catarina	
+                <td> <img src="imagens/Bandeira_de_Santa_Catarina.svg.webp" alt="">Santa Catarina	
                 <td class="num">7 610 361	
                 <td class="num">6 248 436	
                 <td>+21.78%	
@@ -185,7 +201,7 @@
 
             <tr>
                 <td>11	 
-                <td>Goiás	
+                <td> <img src="imagens/Flag_of_Goiás.svg.webp" alt="">Goiás	
                 <td class="num">7 056 495	
                 <td class="num">6 003 788	
                 <td>+17.51%	
@@ -195,7 +211,7 @@
 
             <tr>
                 <td>12	 
-                <td>Maranhão	
+                <td> <img src="imagens/Bandeira_do_Maranhão.svg.webp" alt="">Maranhão	
                 <td class="num">6 775 805	
                 <td class="num">6 574 789	
                 <td>+3.05%	
@@ -205,7 +221,7 @@
 
             <tr>
                 <td>13	 
-                <td>Paraíba	
+                <td> <img src="imagens/Bandeira_da_Paraíba.svg.webp" alt="">Paraíba	
                 <td class="num">3 974 687	
                 <td class="num">3 766 528	
                 <td>+5.52%	
@@ -215,7 +231,7 @@
 
             <tr>
                 <td>14
-                <td>Amazonas
+                <td> <img src="imagens/Bandeira_do_Amazonas.svg.webp" alt="">Amazonas
                 <td class="num">3 941 613
                 <td class="num">3 483 985
                 <td>+13.12%
@@ -225,7 +241,7 @@
 
             <tr>
                 <td>15	 
-                <td>Espírito Santo	
+                <td> <img src="imagens/Bandeira_do_Espírito_Santo.svg (1).webp" alt="">Espírito Santo	
                 <td class="num">3 833 712	
                 <td class="num">3 514 952	
                 <td>+9.06%	
@@ -235,7 +251,7 @@
 
             <tr>
                 <td>16	 
-                <td>Mato Grosso	
+                <td> <img src="imagens/Bandeira_de_Mato_Grosso.svg.webp" alt="">Mato Grosso	
                 <td class="num">3 658 649	
                 <td class="num">3 035 122	
                 <td>+20.55%	
@@ -245,7 +261,7 @@
 
             <tr>
                 <td>17	 
-                <td>Rio Grande do Norte	
+                <td> <img src="imagens/Bandeira_do_Rio_Grande_do_Norte.svg.webp" alt="">Rio Grande do Norte	
                 <td class="num">3 302 729	
                 <td class="num">3 168 027	
                 <td>+4.24%	
@@ -255,7 +271,7 @@
 
             <tr>
                 <td>18	 
-                <td>Piauí	
+                <td> <img src="imagens/Bandeira_do_Piauí.svg.webp" alt="">Piauí	
                 <td class="num">3 271 199	
                 <td class="num">3 118 360	
                 <td>+4.88%	
@@ -265,7 +281,7 @@
 
             <tr>
                 <td>19	 
-                <td>Alagoas	
+                <td> <img src="imagens/Bandeira_de_Alagoas.svg.webp" alt="">Alagoas	
                 <td class="num">3 127 683	
                 <td class="num">3 120 494	
                 <td>+0.23%	
@@ -275,7 +291,7 @@
 
             <tr>
                 <td>20	 
-                <td>Distrito Federal	
+                <td> <img src="imagens/Bandeira_do_Distrito_Federal_(Brasil).svg.webp" alt="">Distrito Federal	
                 <td class="num">2 817 381	
                 <td class="num">2 570 160	
                 <td>+9.62%	
@@ -285,7 +301,7 @@
 
             <tr>
                 <td>21	 
-                <td>Mato Grosso do Sul	
+                <td> <img src="imagens/Bandeira_de_Mato_Grosso_do_Sul.svg.webp" alt="">Mato Grosso do Sul	
                 <td class="num">2 757 013	
                 <td class="num">2 449 024	
                 <td>+12.56%	
@@ -295,7 +311,7 @@
 
             <tr>
                 <td>22	 
-                <td>Sergipe	
+                <td> <img src="imagens/Bandeira_de_Sergipe.svg.webp" alt="">Sergipe	
                 <td class="num">2 209 558	
                 <td class="num">2 068 017	
                 <td>+6.86%	
@@ -305,7 +321,7 @@
 
             <tr>
                 <td>23	 
-                <td>Rondônia	
+                <td> <img src="imagens/Bandeira_de_Rondônia.svg.webp" alt="">Rondônia	
                 <td class="num">1 581 196	
                 <td class="num">1 562 409	
                 <td>+1.19%	
@@ -314,8 +330,8 @@
             </tr>
 
             <tr>
-                <td>24	 
-                <td>Tocantins	
+                <td> 24	 
+                <td> <img src="imagens/Bandeira_do_Tocantins.svg.webp" alt="">Tocantins	
                 <td class="num">1 511 460	
                 <td class="num">1 383 445	
                 <td>+9.25%	
@@ -325,7 +341,7 @@
 
             <tr>
                 <td>25	 
-                <td>Acre	
+                <td> <img src="imagens/Bandeira_do_Acre.svg.webp" alt="">Acre	
                 <td class="num">830 018	
                 <td class="num">733 559	
                 <td>+13.15%	
@@ -335,7 +351,7 @@
 
             <tr>
                 <td>26	 
-                <td>Amapá	
+                <td> <img src="imagens/Bandeira_do_Amapá.svg.webp" alt="">Amapá	
                 <td class="num">733 759	
                 <td class="num">669 526	
                 <td>+9.56%	
@@ -345,7 +361,7 @@
 
             <tr>
                 <td>27	 
-                <td>Roraima	
+                <td> <img src="imagens/Bandeira_de_Roraima.svg.webp" alt="">Roraima	
                 <td class="num">636 707	
                 <td class="num">450 479	
                 <td>+41.26%	
