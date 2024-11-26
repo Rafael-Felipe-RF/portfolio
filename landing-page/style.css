@@ -35,14 +35,14 @@ body{
 
 .link{
     text-decoration: none;
-    color: red;
+    color: black;
 }
 
 a:hover{
     background-color: rgba(0, 255, 98, 0.377);
 }
 a:visited{
-    color: red;
+    color: black;
 }
 a:active{
     color:white;
